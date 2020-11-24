@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="./scripts/moment.js"></script>
+    <script type="text/javascript" src="./scripts/main.js"></script>
+
+    <link rel="stylesheet" href="./style/main.css" />
+
+    <script src="./scripts/alertify.min.js"></script>
+    <link rel="stylesheet" href="./style/alertify.min.css" />
+    <link rel="stylesheet" href="./style/default.min.css" />
+</head>
+
+<body onload="initFormData();">
+
+    <div class="div-title">
+        To Do List
+    </div>
+
+
+    <div class="div-main-form">
+
+        <div class="div-form-title" id="div_form_title"> </div>
+
+        <br />
+
+        <div class="div-form-input" id="div_form_input_description">
+            <label> What Do You Want To Get Done Today? </label>
+            <input type="text" placeholder="studying, reading, dancing ..." id="input_description" />
+        </div>
+
+        <br />
+
+        <div class="div-form-input" id="div_form_input_date">
+            <label> Date: </label>
+            <input type="date" id="input_date" />
+        </div>
+
+        <br />
+
+        <div class="div-form-action">
+            <button onclick="addNewToDoItem()"> Submit </button>
+        </div>
+
+    </div>
+
+    <div class="div-to-do-list" id="div_to_do_list">
+
+    </div>
+
+</body>
+
+</html>

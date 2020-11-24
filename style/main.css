@@ -1,0 +1,104 @@
+body {
+    display: block;
+    margin: 0px;
+    background: #EEEEEE;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.div-title{
+    width:100%;
+    text-align: center;
+    padding: 20px;
+    background: #8DA3E3;
+    color:white;
+    font-size: 28px;
+}
+
+
+.div-main-form{
+   background: #DAE4FF;
+   display: inline-block;
+   width: 300px;
+   height: 200px;
+   text-align: center;
+   margin: 75px 30px;
+   padding: 50px;
+   vertical-align: top;
+}
+
+.div-form-title{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.div-form-input{
+    text-align: left;
+}
+
+.div-form-input > input{
+    padding: 8px;
+    border: 1px solid silver;
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 12px;
+}
+
+.div-form-action{
+    width: 100%;
+    text-align: end;
+}
+
+.div-form-action button{
+    background: #859DE3;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.div-form-action button:hover{
+    background: #8DA3E3;
+}
+
+
+.div-to-do-list{
+    display: inline-block;
+    width: 300px;
+    height: calc(100% - 155px);
+    text-align: center;
+    margin: 75px 30px;
+    overflow: auto;
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+
+.div-to-do-list-item{
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.div-to-do-list-item  > .div-to-do-description{
+    width: calc(100% - 50px);
+    display: inline-block;
+}
+
+.div-to-do-list-item  > .div-to-do-delete-action{
+    width: 50px;
+    display: inline-block;
+    color:red;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+
+.div-to-do-list-item  > .span-date{
+  color: #3B63D0;
+  font-size: 12px;
+  padding-inline-start: 18px;
+}
